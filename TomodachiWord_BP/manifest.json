@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "TomodachiWord Behavior Pack",
+        "description": "TomodachiWord behaviors, scripts and commands",
+        "uuid": "6b7a0a7e-4f0c-4d3a-8e1a-2f6b9c0d1a55",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 60]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "7c8b1b8f-5a1d-4e4b-9f2b-3a7c0d1e2b66",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "8d9c2c90-6b2e-4f5c-0a3c-4b8d1e2f3c77",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ],
+    "capabilities": ["script_eval"]
+}

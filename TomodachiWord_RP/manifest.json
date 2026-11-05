@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "TomodachiWord Resource Pack",
+        "description": "TomodachiWord textures and texts",
+        "uuid": "9e0d3d01-7c3f-4f6e-1b4d-5c9e0f1a2b77",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 60]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "0f1e4e12-8d40-4a7f-2c5e-6d0f1a2b3c88",
+            "version": [1, 0, 0]
+        }
+    ]
+}
